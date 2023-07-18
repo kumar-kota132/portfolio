@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.collapse {
+    display: flex;
+    justify-content: right;
+    font-size: x-large;
+    font-family: 'Libre Baskerville', serif;
+}
+#particles-js {
+    background-color: black;
+    height: 100vh;
+}
+
+.home_item {
+    position: absolute;
+    left: 5%;
+    bottom: 12%;
+    width: 25rem;
+
+}
+
+.namee{
+    position: absolute;
+    right: 10%;
+    bottom: 25%;
+color: white;
+}
+.f{
+    font-size: 5rem;
+    font-family: 'Libre Baskerville', serif;
+}
+.col-md-7{
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+padding: 10% 10%;
+font-size: larger;
+font-family: 'Libre Baskerville', serif;
+}
+.col-md-5{
+    display: inline-flex;
+}
+.aboutimg{
+    margin-top: 10%;
+    height: 30%;
+}
+.featurette-heading{
+    margin-top: 10%;
+    margin-bottom: 5%;
+display: flex;
+justify-content: center;
+color: rgb(192, 3, 3);
+font-family: 'Libre Baskerville', serif;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.skills > p{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+ 
+    font-family: 'Libre Baskerville', serif;
+}
+.form-control{
+  
+    width: 50%;
+}
+.mb-3{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+ 
+    font-family: 'Libre Baskerville', serif;
+}
+.footer{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+ 
+    font-family: 'Libre Baskerville', serif;
+}
